@@ -19,7 +19,7 @@ public class Triangle {
         this.ca = third.distanceTo(first);
     }
 
-    public boolean exists() {
+    /*public boolean exists() {
         return (this.ab < this.bc + this.ca) &&
                 (this.bc < this.ab + this.ca) &&
                 (this.ca < this.ab + this.bc);
@@ -72,7 +72,7 @@ public class Triangle {
                     (this.round(pow(bc, 2)) == this.round(pow(ab, 2) + pow(ca, 2)));
         }
         return result;
-    }
+    }*/
 
 
     @Override
